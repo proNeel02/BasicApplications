@@ -2,17 +2,18 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 body{
-    background-color: #3d64e6;
+    background-color: crimson;
 }
 
 .container{
     background-color: #ffffff;
     
-    width: 500px;
-    height: 500px;
+    width: 80vh;
+    height: auto;
     margin: 100px auto auto auto;
     border-radius: 10px;
     box-shadow: 0 1.25em 1.8em rgba(8, 21, 65, 0.5);
@@ -35,8 +36,30 @@ body{
 }
 
 .search-wrapper input{
-    
+    font-size: 1rem;
+    padding:  0 0.62em;
+    border: none;
+    border-bottom:  2px solid #3d64e6;
+    outline: none;
+    color: #222a43;
 }
 
+#result{
+  margin-top: 1.25em;
+  margin-left: 6em;
+}
 
+.container .flag-img{
+    display: block;
+    width: 100%;
+    min-width: 7.5rem;
+    margin:1.8em auto 1.2em auto;
+}
+
+.container h2{
+    font-weight: 600;
+    color: #222a43;
+    text-align: center;
+    text-transform: uppercase;
+}
 
