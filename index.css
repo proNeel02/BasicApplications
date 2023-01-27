@@ -8,4 +8,35 @@ body{
     background-color: #3d64e6;
 }
 
+.container{
+    background-color: #ffffff;
+    
+    width: 500px;
+    height: 500px;
+    margin: 100px auto auto auto;
+    border-radius: 10px;
+    box-shadow: 0 1.25em 1.8em rgba(8, 21, 65, 0.5);
+}
+.search-wrapper{
+    /* position: absolute; */
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    gap: 1.25rem;
+}
+
+.search-wrapper button{
+    font-size: 1em;
+    background-color: #3d64e6;
+    color: #ffffff;
+    padding: 0.8rem 0;
+    border: none;
+    border-radius: 1.5rem;
+}
+
+.search-wrapper input{
+    
+}
+
+
 
