@@ -14,7 +14,7 @@ body{
     
     width: 80vh;
     height: auto;
-    margin: 100px auto auto auto;
+    margin: 30px auto auto auto;
     border-radius: 10px;
     box-shadow: 0 1.25em 1.8em rgba(8, 21, 65, 0.5);
 }
@@ -51,7 +51,7 @@ body{
 
 .container .flag-img{
     display: block;
-    width: 100%;
+    width: 85%;
     min-width: 7.5rem;
     margin:1.8em auto 1.2em auto;
 }
@@ -61,5 +61,29 @@ body{
     color: #222a43;
     text-align: center;
     text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 32px;
 }
 
+.data-wrapper{
+
+   margin-bottom: 1rem;
+   letter-spacing: 0.5px;
+}
+
+.container h4{
+    display: inline;
+    font-weight: 500;
+    color: #222a43;
+}
+
+.container span{
+    color: #5d6274;
+}
+
+.container h3{
+   text-align: center;
+   font-size:1.2em;
+   font-weight: 400;
+   color: #ff465a;
+}
